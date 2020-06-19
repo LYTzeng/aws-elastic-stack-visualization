@@ -102,8 +102,8 @@ output.elasticsearch:
 vpcflow:
     enabled: true
     # AWS SQS queue url
-    var.queue_url: https://sqs.us-west-2.amazonaws.com/197856344428/S3-flow-log
-    var.role_arn: arn:aws:iam::197856344428:role/ansilbe-power-user
+    var.queue_url: https://sqs.us-west-2.amazonaws.com/012345678912/S3-flow-log
+    var.role_arn: arn:aws:iam::012345678912:role/ansilbe-power-user
 ```
 
 5. Start the service.
