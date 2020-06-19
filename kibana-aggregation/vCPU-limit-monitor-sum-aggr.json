@@ -1,0 +1,5 @@
+{
+    "script": {
+        "source": "doc['configuration.cpuOptions.coreCount'].value * doc['configuration.cpuOptions.threadsPerCore'].value"
+    }
+}
