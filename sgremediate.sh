@@ -48,7 +48,6 @@ else
 fi
 
 # ElasticSearch URL
-# KibanaURL="ec2-54-201-255-186.us-west-2.compute.amazonaws.com:5601"
 
 # ---------------------------------------------------
 # Start of check, no other variables below this line
