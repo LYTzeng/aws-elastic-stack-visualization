@@ -69,7 +69,7 @@ usage: esingest.py [-h] [--region REGION] --destination DESTINATION [--verbose]
 2. Under **Time Filter field name**, select **snapshotTimeIso**. Click the **Create Index Pattern** button.
 
 ##### Import the AWS Config Dashboard
-1. In the left toolbar, click **Management**. Click on **Saved Objects**. Click **Import** on the upper right then select the file `kibana/aws_config_dashboard.ndjson` in this repository, and click **Import**.
+1. In the left toolbar, click **Management**. Click on **Saved Objects**. Click **Import** on the upper right then select the file [`kibana/aws_config_dashboard.ndjson`](kibana/aws_config_dashboard.ndjson) in this repository, and click **Import**.
 
 2. You should see a new dashboard named **AWS Config** under the list of *Saved Objects*. Click on the dashboard **AWS Config** and have fun. 😎
 
@@ -77,7 +77,7 @@ usage: esingest.py [-h] [--region REGION] --destination DESTINATION [--verbose]
 
 ### Visualizing Flow Logs
 #### Import dashboards to Kibana
-In **Saved Objects**, import `kibana/accepted_vpc-flow.ndjson` and `kibana/rejected_vpc_flow.ndjson`. The steps is the same as you import the *AWS Config Dashboard*.
+In **Saved Objects**, import [`kibana/accepted_vpc-flow.ndjson`](kibana/accepted_vpc-flow.ndjson) and [`kibana/rejected_vpc_flow.ndjson`](kibana/rejected_vpc_flow.ndjson). The steps is the same as you import the *AWS Config Dashboard*.
 
 #### Install and Configure Filebeat
 1. The easiest way to install Filebeat is to use APT or YUM repositories. See [the doc](https://www.elastic.co/guide/en/beats/filebeat/current/setup-repositories.html) for more info. In this project we use Filebeat **7.7.1**.
